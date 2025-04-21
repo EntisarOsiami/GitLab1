@@ -6,8 +6,8 @@
     <title>Document</title>
   </head>
   <body>
-    <h1 style='text-align: center; background-color: burlywood;'>Cars</h1>
-    <table border="1">
+    <h1 style="text-align: center; background-color: burlywood">Cars</h1>
+    <table border="1" style="display: block;">
       <tr>
         <th>Car Name</th>
         <th>Car image</th>
@@ -19,7 +19,7 @@
         <td>Audi</td>
         <td>
           <img
-            src="https://www.audi.com/content/dam/nemo/us/models/a4/a4-sedan/2022/overview/audi-a4-sedan-overview.jpg"
+            src="https://mediaservice.audi.com/media/fast/H4sIAAAAAAAA_y3UO6_dRBAA4JOEm0QUIF5CaajQFVIkZtdvF0cooYQiIojmCl2NvS_b68fZXa_PtYRETUtDyQ9Ixw-g4GfQUNFRQUGDYI5E9XlmZ0eWd7yv_jhcre7w4Obm-Wf_PHlP61_L-4fDeTkcDvcof__m-as_3__74eMvf_s_ffXF4SqsrpnvUcmL-693I2oJ_SL1m_ceajs3aB9dNj_-7utf_v3gh5ufnv316Jvn7_5-9eH3-OTw4HB49C01-fGy-_DGO6uzCzocP3bSL_Pkuyjf-oirnLG6aXmeqVxlLa-zTLSslm2JomR1XSdVzbl4-3B47We0FibdtsrNU0gzIf0Q5uVsQVWLqwUkLMmBZ09tbnPIi6f9BIirZAjYzIXhhOMLRVIkwgPqkWmKuiZbFWF1ZIBeFtQRvZZ4iWzuNTHqMSVcERxxx4YaMCA_U8_Q9PUJcBX11hIeK2q2xWKooEGTyI4IfdIQkXcSGnoXhdDYpmEjoYcmhSYgO5-gNe7UM2jntuUFtAt2gaKl6VZOtL1MCdFttBbOemMgZJcqDUJRzxJkK6euAim2EhFkZ_LRELYca5CLKc85KPT1dAYl1wJLUGrjCwOlfbSE2aLioKyvhgzULNRlzXVJpKRf8ktJ9KUmdq_os2qpasdAD4bdNURkvQA9zqFKQTusQk6E2FKJXzQ_g0GtTQpGOsw5mA7ZdGEspp7w-YBgBhxMDsZvVbeDWcXgOXTOZ7aAAd1QeRgsyoHBMC4nVxE-EykM86gbSvp1QKrcTbFwIhYbB4ttPuRg2-V0SsCKZrokhZj6SzRLX4KVaJklJj6lYDusdAZ2wJJtRFOmPdGWhSGspFmyjo7_joh0rGC9rKMgfNJSs3UsjYBReDUxGBXWvgL6LCNrYcJYrhqmaVI7gwVHTe-5aFQhhdOKeGLgUOTpHbHWPYJrZ-kScGIohxSc7KqiJxzXBTgfs5MEj012zgiDjIFvXBUX8G04WQ5eYqSZ8MontN3roV6IrpnYiZCppX2dyfCS3Ls0gh-wp7n2k6nuiHnKzy34ZS0vkTNFR5XeRBo-H2dFP0kQmFAUhpjRWlh0TecQFttUNQSncsEh-GUKRJSnSCV3C5cLsSd7BbEZeMggzoPGhPAn3kMMsd4jbOgktd68z7SCvXHJhrCrkQUBeyezvYV9iGmTwW5FT4OyBxcN-0ROsaNLYpRTOH5Kd03AKXR4-3Jeg3lGE93i9daJYI68Tti1kZ024cizjF2jXQweg1vldYsjzenxZaBb7_bZbXLLGK1PdAuGjnoeX8y-uzx9ftl97YOUrps0TtrKI2fXowwo6JKI0nmqOibvPHj21Yv_AF-cs1WFBQAA.webp?wid=766"
             alt="Audi"
             width="100"
           />
@@ -31,7 +31,7 @@
         <td>mercedes</td>
         <td>
           <img
-            src="https://www.mercedes-benz.com/content/dam/mb-nafta/us/mercedes-benz/vehicles/cars/2022/overview/mercedes-benz-c-class-sedan-overview.jpg"
+            src="https://www.topgear.com/sites/default/files/2024/07/1-Mercedes-C63-review-2024-UK.jpg?w=976&h=549"
             alt="Mercedes"
             width="100"
           />
@@ -42,13 +42,17 @@
             <li>430005</li>
           </ul>
         </td>
-        <td><a href="https://www.mercedes.com" target="_blank">Mercedes Website</a></td>
+        <td>
+          <a href="https://www.mercedes.com" target="_blank"
+            >Mercedes Website</a
+          >
+        </td>
       </tr>
       <tr>
         <td>BMW</td>
         <td>
           <img
-            src="https://www.bmw.com/content/dam/bmw/common/all-models/3-series/sedan/2022/overview/bmw-3-series-sedan-overview.jpg"
+            src="https://www.bmwgroup.com/content/grpw/websites/bmwgroup_com/en/company/_jcr_content/main/layoutcontainer_1988/columncontrol/columncontrolparsys/globalimage.coreimg.82.852.jpeg/1701354503044/720x720-i5er.jpeg"
             alt="BMW"
             width="100"
           />
@@ -59,7 +63,7 @@
     </table>
 
     <h1 style="border: 1em">Enter your data</h1>
-    <form action="" method="post">
+    <form action="" method="">
       <label for="name">Name:</label>
       <input type="text" id="name" name="name" required />
       <label for="email">Email:</label>
@@ -67,7 +71,7 @@
       <label for="Password"> Password</label>
       <input type="password" id="Password" name="Password" required />
       <label for="data">Date of birth:</label>
-      <input type="date" id="data" name="data"  required/>
+      <input type="date" id="data" name="data" required />
       <input type="submit" value="Submit" />
     </form>
   </body>
